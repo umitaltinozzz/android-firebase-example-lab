@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DenemeActivity</string>
+    <string name="image_description" />
+    <string name="image_view_desc" />
+</resources>
