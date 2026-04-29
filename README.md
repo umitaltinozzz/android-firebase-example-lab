@@ -1,36 +1,41 @@
 # Android Firebase Example Lab
 
-![Status](https://img.shields.io/badge/status-portfolio%20archive-blue)
-![Project](https://img.shields.io/badge/type-coursework%20project-informational)
-![Stack](https://img.shields.io/badge/stack-Android%20%7C%20Kotlin%20%7C%20Firebase%20%7C%20Gradle-333333)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-Android Firebase integration example project built to practice connecting a native app with Firebase services.
+A native Android example project for practicing Firebase integration. It keeps the Android/Firebase Gradle setup and source structure while excluding project-specific Firebase credentials.
 
-## Project Status
+## What It Does
 
-Completed Firebase integration lab project.
-
-## Features
-
-- Firebase-enabled Android project structure
-- Google Services Gradle plugin setup
-- Native Android screens and resources
-- Coursework-level cloud integration example
+- Demonstrates Firebase-enabled Android project configuration
+- Uses the Google Services Gradle plugin
+- Keeps a standard Android app layout and activity structure
+- Shows how Firebase configuration fits into a native Android project
 
 ## Tech Stack
 
-Android, Kotlin, Firebase, Gradle
+- Android
+- Kotlin / Java project structure
+- Firebase
+- Gradle
 
-## Local Setup
+## Firebase Setup
 
-Open with Android Studio, add your own `app/google-services.json`, then sync Gradle.
+The original `google-services.json` file was excluded before publishing. To run the project:
+
+1. Create or select a Firebase project.
+2. Add an Android app in Firebase Console.
+3. Download `google-services.json`.
+4. Place it under `app/google-services.json`.
+5. Sync Gradle in Android Studio.
 
 ## Repository Notes
 
-- The original `google-services.json` is excluded because it contains project-specific Firebase identifiers.
-- Generated build files and local SDK paths are excluded.
+Firebase config files, local SDK settings, build folders, and APK outputs are intentionally excluded.
 
 ## License
 
-Released under the MIT License.
+MIT License.
